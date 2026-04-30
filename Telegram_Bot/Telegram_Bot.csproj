@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="10.0.2" />
+    <PackageReference Include="Telegram.Bot" Version="22.9.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AlalamyStock_Business">
+      <HintPath>..\..\AlalamySotre.net_core\AlalamyStock_BusinessLayer\bin\Debug\net8.0-windows\AlalamyStock_Business.dll</HintPath>
+    </Reference>
+    <Reference Include="Alalamy_Stock_Entities">
+      <HintPath>..\..\AlalamySotre.net_core\AlalamyStock_BusinessLayer\bin\Debug\net8.0-windows\Alalamy_Stock_Entities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
